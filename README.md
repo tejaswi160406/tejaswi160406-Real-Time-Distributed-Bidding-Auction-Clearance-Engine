@@ -7,10 +7,11 @@ Real-Time Distributed Bidding & Auction Clearance Engine
 |---|---|---|---|
 | eurekaserverapp | 8761 | Service registry | - |
 | apigatewayapp | 8888 | Single ingress, JWT validation, load balancing | - |
-| authservice | 8081 | Registration, login, JWT issuing | bidvelocity_auth |
-| auctionservice | 8082 | Listing lifecycle, bid arbitration, clearance | bidvelocity_auction |
-| bidservice | 8083 | Bid submission and audit trail | bidvelocity_bid |
-| paymentservice | 8084 | Winning payment clearance | bidvelocity_payment |
+| authservice | 1616 | Registration, login, JWT issuing | bidvelocity_auth |
+| auctionservice | 1617 | Listing lifecycle, bid arbitration, clearance | bidvelocity_auction |
+| bidservice | 1618 | Bid submission and audit trail | bidvelocity_bid |
+| paymentservice | 1619
+| Winning payment clearance | bidvelocity_payment |
 
 ## Start order
 
